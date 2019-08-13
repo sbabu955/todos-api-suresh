@@ -2,7 +2,7 @@
 lock "~> 3.11.0"
 
 set :application, "todos-api"
-set :repo_url, "git@example.com:me/my_repo.git"
+set :repo_url, "git@github.com:sbabu955/todos-api-suresh.git"
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
