@@ -2,6 +2,7 @@ class TodosController < ApplicationController
 	before_action :set_todo, only: [:show, :update, :destroy]
 
 	def index
+		UserMailer.welcome_email.deliver_now
 		@todos = Todo.all
 		json_response(@todos)
 	end

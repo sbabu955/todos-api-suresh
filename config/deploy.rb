@@ -6,7 +6,7 @@ set :repo_url, "git@github.com:sbabu955/todos-api-suresh.git"
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
-
+gem 'gauges-rails'
 # Default deploy_to directory is /var/www/my_app_name
 # set :deploy_to, "/var/www/my_app_name"
 
